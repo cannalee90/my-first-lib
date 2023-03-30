@@ -4,7 +4,7 @@
     "description": "",
     "main": "dist/cjs/src/index.js",
     "module": "dist/es/index.js",
-    "types": "dist/types/src/index.d.ts",
+    "types": "dist/types/index.d.ts",
     "type": "module",
     "scripts": {
         "build:rollup": "rimraf ./dist && rollup -c rollup.config.mjs"
