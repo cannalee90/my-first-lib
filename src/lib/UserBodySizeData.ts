@@ -7,6 +7,10 @@ import {
     shoeSizePolicy,
 } from './BodySizePolicy'
 
+import {
+    isNull
+} from '@damoa-frontend/utility/types'
+
 export interface UserBodySizeData {
     valid?: boolean
     heightAsCentiMeter?: number
@@ -57,3 +61,4 @@ export const UserBodySizeData = (() => {
         makeFinalBodySize,
     }
 })()
+

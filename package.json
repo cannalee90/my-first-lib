@@ -1,6 +1,6 @@
 {
     "name": "@cannalee90/my-first-lib",
-    "version": "0.0.26",
+    "version": "0.0.27",
     "description": "",
     "main": "dist/cjs/src/index.js",
     "module": "dist/es/index.js",
