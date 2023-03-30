@@ -1,2 +1,2 @@
-import { User, userModel } from '@my-second-lib';
+import { User, userModel } from '../second/libs/bank';
 export { User, userModel };
