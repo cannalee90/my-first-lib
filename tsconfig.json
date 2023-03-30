@@ -17,7 +17,7 @@
         "skipLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@my-second-lib": ["second/index.ts"]
+            "@damoa-frontend/utility/types": ["utility/index.ts"],
         }
     },
     "include": ["src/**/*"]

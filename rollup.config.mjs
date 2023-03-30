@@ -50,7 +50,8 @@ export default [
     plugins: [
       dts(),
       alias({
-        entries: [{ find: '@my-second-lib', replacement: "second/index.ts" }],
+        entries: [{ find: '@damoa-frontend/utility/types', replacement: "utility/index.ts" }],
+
       }),
     ],
   },

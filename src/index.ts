@@ -1,3 +1,4 @@
-import { User, userModel } from '@my-second-lib'
-
-export { User, userModel }
+export * from './lib/BodySizeInputProps'
+export * from './lib/BodySizePolicy'
+export * from './lib/BodySizeType'
+export * from './lib/UserBodySizeData'
