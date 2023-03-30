@@ -28,6 +28,9 @@ export default inputSrc
         typescript({ tsconfig: './tsconfig.json' }),
         nodeResolve({
           extensions,
+          alias: {
+            '@my-second-lib': './second',
+          }
         }),
         // https://velog.io/@peterkimzz/rollup-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8
         // commonJS 로 작성된 모듈들을 번들링 결과물에 포함시키려고 할 때 문제가 발생

@@ -1,3 +1,3 @@
-import { User, userModel } from '@my-second-lib/libs/bank'
+import { User, userModel } from '@my-second-lib'
 
 export { User, userModel }

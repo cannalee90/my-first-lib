@@ -17,7 +17,7 @@
         "skipLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@my-second-lib/*": ["second/*"]
+            "@my-second-lib": ["second/index.ts"]
         }
     },
     "include": ["src/**/*"]
