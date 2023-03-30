@@ -1,10 +1,9 @@
 {
     "name": "@cannalee90/my-first-lib",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "",
     "main": "dist/cjs/index.js",
     "module": "dist/es/index.js",
-    "types": "dist/types/index.d.ts",
     "type": "module",
     "scripts": {
         "build:rollup": "rimraf ./dist && rollup -c rollup.config.mjs"
