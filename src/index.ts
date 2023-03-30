@@ -1,3 +1,3 @@
-const NAME: string = "KANGHO"
+import { User, userModel } from '../second'
 
-export { NAME }
+export { User, userModel }
