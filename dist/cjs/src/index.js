@@ -1,6 +1,6 @@
 'use strict';
 
-var bank = require('./_virtual/bank.js');
+var bank = require('../second/libs/bank.js');
 
 
 

@@ -26,9 +26,6 @@ export default inputSrc
         //   exclude: 'node_modules/**',
         //   extensions,
         // }),
-        alias({
-          entries: [{ find: '@my-second-lib', replacement: './second/index.ts' }],
-        }),
         typescript({ tsconfig: './tsconfig.json' }),
         nodeResolve({
           extensions,
@@ -39,7 +36,11 @@ export default inputSrc
         commonjs({
           extensions: [...extensions, '.js'],
         }),
-
+        alias({
+          entries: [
+            { find: '@my-second-lib', replacement: './src/second' }
+          ]
+        }),
       ],
     };
   });
